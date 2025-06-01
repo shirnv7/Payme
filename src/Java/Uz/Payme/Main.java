@@ -1,6 +1,7 @@
 package Java.Uz.Payme;
 
 import Java.Uz.Payme.Service.AuthService;
+import Java.Uz.Payme.Service.PaymentService;
 import Java.Uz.Payme.Service.PaymetService;
 import Java.Uz.Payme.Service.Service;
 import Java.Uz.Payme.Util.Input;
@@ -23,7 +24,7 @@ public class Main {
                 case 1 -> AuthService.CreateUser();
                 case 2 -> AuthService.Login();
                 case 3 -> Service.Information();
-                case 4 -> PaymetService.PaymentMenu();
+                case 4 -> PaymentService.PaymentMenu();
                 case 5 -> Service.Help();
                 case 0 -> {
                     return;
