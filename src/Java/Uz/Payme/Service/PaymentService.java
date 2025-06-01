@@ -1,6 +1,6 @@
 package Java.Uz.Payme.Service;
 
-public class PaymetService {
+public class PaymentService {
     public static void PaymentMenu() {
 
     }
