@@ -2,7 +2,7 @@ package Java.Uz.Payme;
 
 import Java.Uz.Payme.Service.AuthService;
 import Java.Uz.Payme.Service.PaymentService;
-import Java.Uz.Payme.Service.PaymetService;
+import Java.Uz.Payme.Service.PaymentService;
 import Java.Uz.Payme.Service.Service;
 import Java.Uz.Payme.Util.Input;
 
